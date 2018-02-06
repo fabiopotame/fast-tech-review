@@ -4,7 +4,7 @@ MAINTAINER Fabio Potame <fabiopotame@gmail.com>
 
 # atualiza o repositorio
 RUN apt-get update \
-    && apt-get install -y nginx php7.0-fpm php7.0-intl php7.0-mbstring \
+    && apt-get install -y nginx php7.0-fpm php7.0-intl php7.0-mbstring php7.0-mysql \
     && apt-get install -y mcrypt php-mcrypt \
     && apt-get install -y php-mbstring \
     && apt-get install -y libnet-libidn-perl \
